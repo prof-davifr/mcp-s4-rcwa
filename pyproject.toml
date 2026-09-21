@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 dependencies = [
-    "mcp>=1.2.0",
+    "mcp>=1.2.0,<2",  # a 2.x renomeou FastMCP para MCPServer e mudou a API
     "matplotlib>=3.5",
     "numpy>=1.23",
 ]
